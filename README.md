@@ -76,6 +76,63 @@ https://github.com/minttamdayne/Track1_Day25_Team10_anhemsiunhan
 
 **Demo:** 
 
+### 8. Tóm tắt kết quả Phase 1–4
+
+#### Stakeholder Map & Strategy
+
+Nhóm xác định 7 stakeholder theo ma trận Influence × Interest và dùng đúng nhãn theo vùng:
+
+| Vùng | Stakeholder chính | Cách tiếp cận |
+|---|---|---|
+| Champion | S1 Mentor; S6 AI/OCR lead | Cập nhật tiến độ, xin phản hồi và xác nhận vai trò |
+| Supporter | S2 Nhóm 5 người dùng thử | Mời thử nghiệm, đo thời gian và số lần chỉnh sửa |
+| Blocker | S3 Cố vấn tài chính; S4 Open API; S5 Bảo mật/pháp lý | Làm rõ điều kiện, giảm rủi ro phụ thuộc và review dữ liệu |
+| Bystander | S7 Người dùng chưa tiếp cận | Theo dõi và tiếp cận khi MVP sẵn sàng |
+
+Bốn stakeholder ưu tiên có owner, deadline và kết quả mong đợi trong [Stakeholder Map](artefacts/01-stakeholder-map.md). Các stance và kết quả thử nghiệm chưa có bằng chứng được ghi rõ là chưa xác minh.
+
+#### Pitch & RACI
+
+Kết luận của pitch là mời 5 sinh viên thử Saving Tracker AI trong 15 phút với tối đa 3 hóa đơn mẫu đã che thông tin nhạy cảm. Nhóm đo thời gian thao tác, số lỗi cần sửa và 3 vấn đề ưu tiên. Phản biện chính là OCR có thể sai và khiến người dùng mất nhiều thời gian hơn nhập thủ công; cách xử lý là xây bộ eval, cho phép sửa trước khi lưu và so sánh hai cách nhập.
+
+RACI gồm 6 công việc và mỗi công việc có đúng một Accountable. Vai trò được gắn với thành viên: Tâm (Product Owner), Đạt (AI Engineer), Linh (Backend), Trân (UI/UX), Tiên (Security/QA). Chi tiết xem [Pitch & RACI](artefacts/02-pitch-raci.md).
+
+#### AI Team Design & Priority Resourcing
+
+- **Architecture:** Embedded, phù hợp với team nhỏ đang làm MVP.
+- **Core roles:** Product Owner, AI Engineer, Backend & Security, UI/UX.
+- **Capability gaps:** chuyên môn tài chính, kết nối Open API, AI Evals và review bảo mật độc lập.
+- **Resourcing:** Partner với cố vấn tài chính và aggregator; Develop bộ eval trong team; Outsource review bảo mật một lần. Chưa chọn Hire vì MVP chưa cần nhân sự cố định.
+
+Chi tiết xem [AI Team Design](artefacts/03-ai-team-design.md).
+
+#### Team Health & Growth Plan
+
+| Khía cạnh | Điểm TB |
+|---|---:|
+| Chất lượng AI | 2.6/5 |
+| Tiến độ | 3.0/5 |
+| Tinh thần team | 4.4/5 |
+| Tốc độ ra sản phẩm | 2.6/5 |
+
+Vấn đề ưu tiên là thiếu quy trình đánh giá AI và tích hợp kết quả vào chu kỳ MVP. Năng lực cần nâng là AI Evals/Quality Evaluation, owner là Phạm Thành Đạt.
+
+Ba hành động trong 30 ngày:
+
+1. Đạt xây 30 hóa đơn chuẩn và baseline eval trước 27/10/2026.
+2. Tâm phối hợp Linh chia MVP thành task nhỏ, theo dõi GitHub và có ít nhất 2 review trước 03/11/2026.
+3. Trân phối hợp Tâm thử nghiệm với 5 người dùng và tổng hợp 3 vấn đề ưu tiên trước 12/11/2026.
+
+Chi tiết xem [Team Health & Growth Plan](artefacts/04-team-health-growth-plan.md).
+
+### 9. Consistency Check & Gate 5
+
+- S2, S4 và S5 trong Stakeholder Map xuất hiện trong Pitch/RACI và kế hoạch resourcing.
+- Capability gap AI Evals ở Phase 3 liên quan trực tiếp đến điểm Chất lượng AI 2.6/5 ở Phase 4.
+- Owner Growth Plan khớp với vai trò trong RACI.
+- Repository có README.md, 4 artefact team, artefact cá nhân và PDF tối đa 4 trang.
+- Các nội dung chưa có dữ liệu thật không được trình bày như kết quả đã đạt.
+
 ## Artefact (đóng gói thành PDF ≤ 4 trang)
 1. [Stakeholder Map](artefacts/01-stakeholder-map.md)
 2. [Pitch & RACI](artefacts/02-pitch-raci.md)
@@ -86,9 +143,10 @@ https://github.com/minttamdayne/Track1_Day25_Team10_anhemsiunhan
 
 | Thành viên | Stakeholder Map | Pitch |
 |---|---|---|
-| Linh | [01](artefacts/01-stakeholder-map-individual.md) | [02](artefacts/02-pitch-individual.md) |
+| Tâm | [01](artefacts/01-stakeholder-map-individual-linh.md) | [02](artefacts/02-pitch-individual-linh.md) |
+| Trân | [01](artefacts/01-stakeholder-map-individual-BuiThiNgocTran.md) | [02](artefacts/02-pitch-individual-BuiThiNgocTran.md) |
+| Đạt | Chưa có file cá nhân trong repo | Chưa có file cá nhân trong repo |
+| Linh | [01](artefacts/01-stakeholder-map-individual-tam.md) | [02](artefacts/02-pitch-individual-tam.md) |
 | Tiên | [01](artefacts/01-stakeholder-map-individual-tien.md) | [02](artefacts/02-pitch-individual-tien.md) |
 
 PDF nộp: [Day25_AI-Team-Lab_Team10.pdf](output/pdf/Day25_AI-Team-Lab_Team10.pdf) (bản chính thức, tối đa 4 trang).
-
-> Các artefact phản ánh phạm vi MVP và bằng chứng hiện có. Những nội dung chưa thực hiện (stance, OCR, user testing) được ghi rõ là chưa xác minh/chưa có kết quả, không trình bày như dữ liệu đã đạt.
