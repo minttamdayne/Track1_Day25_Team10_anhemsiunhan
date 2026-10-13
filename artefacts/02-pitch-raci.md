@@ -1,62 +1,141 @@
-# Trang 2 – Pitch & RACI · Saving Tracker AI
 
-> Bản nháp. Chưa có số liệu OCR, kết quả dùng thử hoặc phản hồi chuyên gia trong repo; không tự điền số chưa đo.
+# Phase 2 — Pitch & RACI Matrix
 
-## 1. Pitch gửi S3 – Cố vấn tài chính
+**Team:** Team 10 – anhemsiunhan  
+**Dự án:** Saving Tracker AI  
+**Thời gian:** 30 phút  
+**Hình thức:** Team → Cá nhân → Team
 
-**Kết luận:** Team đề xuất MVP chỉ đưa ra *gợi ý tích lũy mang tính tham khảo* từ dữ liệu chi tiêu của chính người dùng, không khuyến nghị sản phẩm đầu tư cụ thể. Chúng tôi muốn bạn kiểm tra giới hạn đề xuất này có đủ an toàn không.
+> Các thông tin chưa được kiểm chứng được ghi rõ là giả định. RACI đã gắn với thành viên thực tế của team.
 
-**Lý do:**
-1. Người dùng trẻ bỏ việc ghi chi tiêu vì nhập tay tốn công. OCR/LLM đọc hóa đơn giúp bỏ bước này.
-2. Team dự kiến giới hạn phần gợi ý vào số liệu chi tiêu của người dùng và thêm disclaimer; đây là guardrail cần được review, chưa phải kết quả đã kiểm chứng.
-3. Bạn là người hiểu rõ nhất tình huống nào là "rủi ro đỏ" và đó là chỗ team còn thiếu.
+## 1. Team — Pitch theo Conclusion First
 
-**Bằng chứng:** Repo mô tả prototype OCR chưa được kiểm chứng với người dùng thật. Chưa có số liệu độ chính xác, kết quả dùng thử hoặc đánh giá của cố vấn được ghi lại; vì vậy pitch này nêu đề xuất cần được review, chưa khẳng định sản phẩm đã an toàn hay hiệu quả.
+**Stakeholder được chọn:** S2 – Nhóm sinh viên dự kiến dùng thử Saving Tracker AI.
 
-**Small ask:** 30 phút xem 3 tình huống mẫu (ví dụ chi vượt ngân sách, gợi ý tiết kiệm hàng tháng, câu hỏi "có nên mua cổ phiếu X không") và cho biết câu trả lời nào AI không nên đưa ra. Team sẽ dùng phản hồi để chỉnh guardrail trước khi thử tính năng với người dùng.
+### Kết luận / Đề xuất
 
-## 2. Phản biện có khả năng cao nhất
+Team muốn mời 5 sinh viên trải nghiệm Saving Tracker AI để kiểm chứng liệu việc chụp hóa đơn và tự động ghi nhận giao dịch có giúp theo dõi chi tiêu thuận tiện hơn nhập liệu thủ công hay không.
 
-**Phản biện:** "AI có thể đưa lời khuyên tài chính sai, và người dùng sẽ làm theo."
+### Lý do
 
-**Trả lời (dựa trên hành động giảm rủi ro):**
-- Đề xuất MVP chỉ gợi ý tiết kiệm dựa trên dữ liệu chi tiêu của người dùng, không gợi ý sản phẩm hay mã đầu tư.
-- Team dự kiến từ chối câu hỏi đầu tư cụ thể và chuyển sang disclaimer; bộ test và kết quả từ chối cần được xây dựng, đo trước khi thử tính năng với người dùng.
-- Cố vấn là người duyệt các ca "rủi ro đỏ" trước khi mở phần này cho người dùng thử.
+1. **Giảm công sức ghi chép:** Việc nhập từng giao dịch có thể khiến người dùng khó duy trì thói quen theo dõi chi tiêu. OCR/LLM được kỳ vọng giúp giảm thao tác này.
 
-## 3. Phiên bản cá nhân (Bước 3, mỗi người tự viết)
+2. **Kiểm chứng chất lượng AI:** Nếu hệ thống đọc sai hóa đơn và người dùng phải chỉnh sửa nhiều, lợi ích tự động hóa có thể không còn rõ ràng.
 
-Mỗi thành viên viết lại pitch bằng lời của mình theo đúng 4 phần (kết luận, lý do, bằng chứng, small ask), rồi chia sẻ. Team chọn các câu rõ nhất.
+3. **Phát triển đúng nhu cầu:** Phản hồi thực tế sẽ giúp team ưu tiên các chức năng mang lại giá trị thay vì mở rộng tính năng theo giả định.
 
-| Thành viên | Câu kết luận của bạn | Câu small ask của bạn |
+### Bằng chứng hiện có
+
+Repository đã mô tả định hướng ứng dụng OCR/LLM để đọc hóa đơn, ghi nhận giao dịch và cảnh báo chi tiêu.
+
+Tuy nhiên, hiện chưa có số liệu được xác nhận về độ chính xác OCR, thời gian tiết kiệm hoặc mức độ hài lòng của người dùng. Do đó, nhóm chưa khẳng định sản phẩm tốt hơn cách nhập thủ công.
+
+### Small ask
+
+Khi phiên bản thử nghiệm sẵn sàng, bạn có thể dành 15 phút thực hiện thao tác nhập tối đa 3 hóa đơn mẫu đã che thông tin nhạy cảm và chia sẻ những bước gây khó khăn không?
+
+Team sẽ ghi nhận thời gian thao tác, số lỗi cần sửa và phản hồi để xác định 3 vấn đề ưu tiên cải thiện.
+
+## 2. Team — Phản biện & cách xử lý
+
+**Phản biện:**
+
+"AI đọc hóa đơn chưa chắc chính xác. Nếu phải kiểm tra và sửa lại nhiều lần thì dùng ứng dụng có thể còn mất thời gian hơn nhập thủ công."
+
+**Cách phản hồi:**
+
+Đây là giả thuyết nhóm cần kiểm chứng, không phải vấn đề có thể giải quyết chỉ bằng việc cam kết AI sẽ chính xác.
+
+Nhóm đề xuất:
+
+1. Chuẩn bị bộ hóa đơn mẫu có đáp án chuẩn.
+2. Đo độ chính xác của các trường: ngày giao dịch, tên cửa hàng và tổng tiền.
+3. Cho người dùng kiểm tra và chỉnh sửa thông tin trước khi lưu.
+4. So sánh thời gian hoàn thành tác vụ với cách nhập thủ công.
+
+Nếu kết quả OCR chưa đủ tốt, nhóm sẽ ưu tiên cải thiện trích xuất và trải nghiệm chỉnh sửa trước khi mở rộng tính năng.
+
+## 3. Cá nhân — Viết lại Pitch
+
+Mỗi thành viên tự viết lại thông điệp theo cấu trúc Conclusion First → Lý do → Evidence → Small ask.
+
+| Thành viên | Góc nhìn cá nhân | Nội dung |
 |---|---|---|
-| Linh | MVP chỉ gợi ý tích lũy tham khảo từ chi tiêu người dùng, không khuyến nghị sản phẩm đầu tư cụ thể. | Xin 30 phút để cố vấn xem 3 tình huống mẫu và chỉ ra trường hợp AI không nên trả lời. |
-| Tiên | Ở MVP, AI chỉ giúp người dùng đọc hóa đơn và nhìn rõ chi tiêu của mình; mọi gợi ý tích lũy chỉ mang tính tham khảo, không đụng tới việc nên mua gì. | Xin 30 phút xem 3 tình huống mẫu và cho biết câu nào AI phải từ chối hoặc chuyển hướng trước khi team cho người dùng thử. |
+| Đinh Thị Minh Tâm | Product & User Validation | Kiểm chứng liệu OCR có thực sự giúp người dùng ghi nhận chi tiêu thuận tiện hơn. |
+| Bùi Thị Ngọc Trân | Trust & Privacy | Minh bạch việc xử lý dữ liệu để người dùng có cơ sở quyết định tham gia thử nghiệm. |
+| Nguyễn Khánh Linh | Financial Safety | Giới hạn gợi ý tích lũy và xác định các trường hợp AI không nên đưa ra khuyến nghị. |
+| Ngô Lê Thuỷ Tiên | Data Security | Xin review cách lưu trữ, bảo vệ và xóa dữ liệu hóa đơn. |
+| Phạm Thành Đạt | Chờ bổ sung | Chưa có bản Pitch cá nhân được cung cấp. |
 
-*Mục đích của bước này là kiểm tra từng người có hiểu thông điệp thật hay chỉ đồng ý với bản nháp.*
+**Thông điệp tổng hợp đề xuất:**
 
-## 4. RACI Matrix (1 A duy nhất mỗi hàng)
+Saving Tracker AI hướng đến việc giảm thao tác ghi nhận chi tiêu bằng công nghệ đọc hóa đơn. Trong giai đoạn MVP, nhóm ưu tiên kiểm chứng tính hữu ích, độ chính xác và sự tin tưởng của người dùng trước khi phát triển các tính năng tài chính nâng cao.
 
-Cột là **vai trò**, không cần gắn tên cá nhân.
+> Các bản Pitch cá nhân cần được lưu riêng để chứng minh quá trình Team → Cá nhân → Team. Thành viên xác nhận nội dung của mình trước khi nhóm sử dụng làm bản chính thức.
 
-| Công việc (1–2 tháng tới) | Product Owner | AI Engineer | Backend & Security | UI/UX | Cố vấn tài chính | Đơn vị Open API | Giảng viên |
-|---|---|---|---|---|---|---|---|
-| Chốt phạm vi MVP và phương án kết nối Open API | **A**/R | C | C | C | C | C | I |
-| Xây pipeline OCR/LLM đọc hóa đơn | I | **A**/R | C | I | I | I | I |
-| Bảo mật và quyền riêng tư dữ liệu | C | C | **A**/R | I | I | I | I |
-| Guardrail cho phần gợi ý tích lũy | **A** | R | C | I | C | I | I |
-| Thiết kế luồng nhập và cảnh báo | C | I | C | **A**/R | I | I | I |
-| Test người dùng và quyết định phạm vi thử nghiệm | **A**/R | C | C | C | C | I | I |
+## 4. Team — RACI Matrix
 
-**Lý do chọn A cho hai hàng dễ gây tranh cãi:**
-- Guardrail: A = Product Owner, R = AI Engineer. Người làm và người duyệt tách nhau để tránh tự làm tự duyệt.
-- Test người dùng và quyết định phạm vi thử nghiệm: A/R = Product Owner, vì kết quả test quyết định mức độ sẵn sàng cho bước thử tiếp theo.
+### 4.1. Quy ước
 
-> Team nhỏ thì một người có thể vừa R vừa A (ghi "A/R"). Cần ghi rõ ai đảm nhiệm mỗi vai trò, vì một người có thể kiêm nhiều vai trò.
+- **R (Responsible):** Người trực tiếp thực hiện.
+- **A (Accountable):** Người chịu trách nhiệm cuối cùng.
+- **C (Consulted):** Người được tham vấn.
+- **I (Informed):** Người được cập nhật.
+- **A/R:** Một vai trò vừa thực hiện vừa chịu trách nhiệm.
 
-## GATE 2 – tự kiểm tra
-- [x] Pitch có kết luận, lý do, bằng chứng, small ask
-- [x] Có 1 phản biện và câu trả lời
-- [ ] Bằng chứng sản phẩm chưa có số liệu thật; cần bổ sung khi có kết quả đo hoặc feedback
-- [ ] Bước cá nhân: Linh đã có phiên bản; chờ các thành viên còn lại chia sẻ để team chọn câu rõ nhất
-- [x] RACI: 6 việc, mỗi việc đúng 1 A (cần team xác nhận người nhận từng vai trò)
+### 4.2. RACI cho 6 công việc quan trọng
+
+| Công việc | Product Owner | AI Engineer | Backend & Security | UI/UX | Mentor |
+|---|---|---|---|---|---|
+| Chốt phạm vi và yêu cầu MVP | **A/R** | C | C | C | I |
+| Chuẩn bị dữ liệu và xây pipeline OCR/LLM | C | **A/R** | C | I | I |
+| Thiết kế và triển khai bảo mật dữ liệu | C | C | **A/R** | C | I |
+| Xây dựng giao diện nhập và theo dõi chi tiêu | C | C | C | **A/R** | I |
+| Đánh giá độ chính xác OCR và xử lý lỗi | **A** | R | C | C | I |
+| Tổ chức user testing và quyết định pilot | **A** | C | C | R | I |
+
+### 4.3. Giải thích phân quyền
+
+**Product Owner** chịu trách nhiệm cuối cùng về phạm vi MVP, tiêu chí đánh giá và quyết định pilot. Vai trò này bảo đảm team ưu tiên giải quyết nhu cầu người dùng.
+
+**AI Engineer** trực tiếp phát triển OCR/LLM và đo chất lượng trích xuất. Với hoạt động đánh giá OCR, Product Owner là Accountable để kết quả kỹ thuật được xem xét cùng tiêu chí sử dụng thực tế.
+
+**Backend & Security** chịu trách nhiệm về xử lý và lưu trữ dữ liệu, quyền truy cập và các biện pháp bảo vệ thông tin.
+
+**UI/UX** chịu trách nhiệm thiết kế luồng nhập liệu và trực tiếp tổ chức user testing, giúp team quan sát hành vi thay vì chỉ dựa vào ý kiến người dùng.
+
+**Mentor** được cập nhật tiến độ và tham vấn khi nhóm cần đánh giá lại phạm vi hoặc phương pháp thực hiện.
+
+### 4.4. Phân công người đảm nhiệm vai trò
+
+| Thành viên | Vai trò chính | Vai trò kiêm nhiệm |
+|---|---|---|
+| Đinh Thị Minh Tâm | Product Owner / Project Manager | Stakeholder Management, User Research |
+| Bùi Thị Ngọc Trân | UI/UX Designer | User Testing, Privacy UX |
+| Phạm Thành Đạt | AI Engineer | OCR/LLM Evaluation, Data Preparation |
+| Nguyễn Khánh Linh | Backend Developer | API Integration, Database Management |
+| Ngô Lê Thuỷ Tiên | Security & Quality Assurance | Data Privacy, Software Testing |
+
+**Trách nhiệm chính:**
+
+- **Đinh Thị Minh Tâm:** Xác định phạm vi MVP, quản lý tiến độ, điều phối nhóm, làm việc với stakeholder và chịu trách nhiệm về quyết định phát triển sản phẩm.
+- **Bùi Thị Ngọc Trân:** Thiết kế giao diện, tối ưu trải nghiệm nhập hóa đơn, tổ chức kiểm thử người dùng và ghi nhận phản hồi.
+- **Phạm Thành Đạt:** Phát triển pipeline OCR/LLM, chuẩn bị dữ liệu kiểm thử và đánh giá chất lượng trích xuất thông tin.
+- **Nguyễn Khánh Linh:** Phát triển backend, thiết kế cơ sở dữ liệu và tích hợp API giữa AI với ứng dụng.
+- **Ngô Lê Thuỷ Tiên:** Kiểm tra chất lượng phần mềm, đánh giá rủi ro bảo mật và phối hợp xây dựng quy trình bảo vệ dữ liệu cá nhân.
+
+## 5. GATE 2 — Tự kiểm tra
+
+- [x] Pitch trình bày kết luận trước.
+- [x] Có 3 lý do gắn với nhu cầu và giá trị sản phẩm.
+- [x] Phân biệt bằng chứng hiện có với giả định.
+- [x] Small ask cụ thể, có thời lượng và kết quả mong muốn.
+- [x] Có 1 phản biện chính và hành động giảm rủi ro.
+- [x] Có RACI cho 6 công việc.
+- [x] Mỗi công việc có đúng 1 Accountable.
+- [ ] Xác nhận bản Pitch cá nhân của từng thành viên.
+- [ ] Bổ sung Pitch cá nhân của Phạm Thành Đạt.
+- [x] Gắn tên thành viên thực tế vào RACI.
+- [ ] Bổ sung kết quả OCR/demo/user testing khi có bằng chứng.
+
+**Trạng thái:** Hoàn thiện theo bằng chứng hiện có; chưa khẳng định kết quả OCR/user testing khi chưa có dữ liệu thực tế.
