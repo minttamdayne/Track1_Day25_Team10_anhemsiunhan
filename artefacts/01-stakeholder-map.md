@@ -8,13 +8,13 @@
 |---|---|---|---|---|---|---|
 | S1 | Giảng viên lớp chấm và review bài lab | Cao | Cao | Champion | Ủng hộ | [TODO: feedback đã nhận] |
 | S2 | 5–10 người dùng thử đầu tiên (bạn bè, sinh viên đi làm thêm) | Thấp | Cao | Supporter | Ủng hộ | [TODO: số người đã thử] |
-| S3 | Cố vấn tài chính cá nhân (1–2 người) | Cao | Trung bình | Champion hoặc Blocker | **Trung lập** | Chưa gặp. Có thể lo rủi ro "AI tư vấn đầu tư sai" |
+| S3 | Cố vấn tài chính cá nhân (1–2 người) | Cao | Thấp (chưa thể hiện quan tâm) | Blocker | **Trung lập** | Chưa gặp. Có thể lo rủi ro "AI tư vấn đầu tư sai"; stance chưa được xác minh trực tiếp |
 | S4 | Đơn vị cung cấp Open API / aggregator ngân hàng | Cao | Thấp | Blocker | **Chưa ủng hộ** | Chưa có quan hệ. Họ không có lý do ưu tiên một team sinh viên |
 | S5 | Chuyên gia bảo mật / pháp lý dữ liệu cá nhân (người review) | Cao | Thấp | Blocker | Trung lập | Dữ liệu tài chính nhạy cảm, họ chỉ quan tâm khi có rủi ro |
 | S6 | Thành viên team nắm AI/OCR (tech lead) | Cao | Cao | Champion | Ủng hộ | Là người build trực tiếp |
 | S7 | Người dùng đại trà chưa biết sản phẩm | Thấp | Thấp | Bystander | Trung lập | Theo dõi qua thử nghiệm sau |
 
-Ghi chú lệch giữa nhãn và thực tế: S3 và S5 nằm ở vùng influence cao nhưng stance là trung lập. Không được coi họ là Champion chỉ vì ở vùng đó.
+Quadrant được xác định theo Influence × Interest; stance được ghi riêng theo mức ủng hộ thực tế. S3 và S5 nằm ở vùng Blocker do influence cao và chưa thể hiện interest cao, dù stance hiện ghi trung lập. Stance của S1, S2 và S6 cũng cần xác minh bằng feedback hoặc trao đổi thực tế.
 
 ## 2. Ma trận
 
@@ -50,8 +50,7 @@ Ghi chú lệch giữa nhãn và thực tế: S3 và S5 nằm ở vùng influenc
 3. *Hành động 1–2 tuần:* tìm bản sandbox hoặc tài liệu công khai của 2 đơn vị, gửi 1 email ngắn xin sandbox cho mục đích học thuật. Song song, giữ phương án dự phòng là nhập hóa đơn thủ công, để MVP không phụ thuộc họ. Owner: [TODO]. Hạn: [TODO].
 
 ## GATE 1 – tự kiểm tra
-- [x] Ít nhất 6 stakeholder cụ thể (hiện có 7, nhưng owner và deadline còn `[TODO]`)
-- [x] Đã map Influence × Interest
-- [x] Có stance cho từng người
-- [x] 4 hành động cho 4 stakeholder ưu tiên
-- [ ] **Chưa qua hẳn:** cần điền owner, deadline và kiểm tra stance bằng bằng chứng thật
+- [x] Có 7 stakeholder và đã map Influence × Interest
+- [x] Có stance sơ bộ cho từng stakeholder; một số stance cần xác minh
+- [x] Có 4 hành động ưu tiên được mô tả
+- [ ] Cần điền owner/deadline và xác minh stance bằng bằng chứng thật

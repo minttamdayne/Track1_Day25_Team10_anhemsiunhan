@@ -9,6 +9,7 @@ Team chỉ có vài người và đang ở giai đoạn MVP, nên không cần h
 ## 2. Core Roles và Extended Roles
 
 **Core (cần ngay):**
+
 | Vai trò | Vì sao cần ở MVP |
 |---|---|
 | Product Owner | Chốt phạm vi, làm việc với cố vấn tài chính và đối tác API |
@@ -17,8 +18,9 @@ Team chỉ có vài người và đang ở giai đoạn MVP, nên không cần h
 | UI/UX | Giữ luồng nhập và cảnh báo đơn giản, cân bằng với yêu cầu bảo mật |
 
 **Extended (chỉ khi scale):**
+
 - Legal / Compliance (dữ liệu cá nhân, quy định tư vấn tài chính)
-- MLOps / Evals (theo dõi chất lượng OCR/LLM liên tục)
+- MLOps và theo dõi Evals liên tục khi sản phẩm mở rộng; MVP vẫn cần bộ eval cơ bản do AI Engineer xây dựng
 - Domain Expert tài chính toàn thời gian
 - AI Ethics / Governance
 
@@ -28,7 +30,7 @@ Team chỉ có vài người và đang ở giai đoạn MVP, nên không cần h
 |---|---|---|---|
 | Chuyên môn tài chính và giới hạn tư vấn | **Partner** với cố vấn tài chính (cũng là S3 trong Stakeholder Map) | Team không cần tuyển full-time ở MVP, nhưng cần người xác định "rủi ro đỏ" | Trước khi mở phần gợi ý cho người dùng thử |
 | Kết nối dữ liệu ngân hàng (Open API) | **Partner** với aggregator có sẵn sandbox (S4) | Tự xây kết nối ngân hàng quá tốn thời gian và rủi ro tuân thủ. MVP có phương án dự phòng là nhập hóa đơn thủ công | Sau khi MVP nhập thủ công chạy ổn |
-| Review bảo mật độc lập | **Outsource** một lần | Cần góc nhìn bên ngoài về dữ liệu nhạy cảm, không cần người cố định | Trước khi cho người dùng ngoài team thử dữ liệu thật |
+| Đánh giá chất lượng OCR/LLM (Evals) và review bảo mật độc lập | **Develop** bộ eval cơ bản trong team (AI Engineer); **Outsource** review bảo mật một lần | Evals là năng lực cần ngay để đo lỗi OCR/guardrail; review bảo mật cần góc nhìn độc lập nhưng không cần người cố định | Bộ eval trước khi thử với người dùng; review bảo mật trước khi dùng dữ liệu thật ngoài team |
 
 Chưa chọn Hire cho gap nào, vì ở MVP không cần thêm người cố định.
 
