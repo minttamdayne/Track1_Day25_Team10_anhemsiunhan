@@ -145,7 +145,7 @@ Chi tiết xem [Team Health & Growth Plan](artefacts/04-team-health-growth-plan.
 |---|---|---|
 | Tâm | [01](artefacts/01-stakeholder-map-individual-linh.md) | [02](artefacts/02-pitch-individual-linh.md) |
 | Trân | [01](artefacts/01-stakeholder-map-individual-BuiThiNgocTran.md) | [02](artefacts/02-pitch-individual-BuiThiNgocTran.md) |
-| Đạt | Chưa có file cá nhân trong repo | Chưa có file cá nhân trong repo |
+| Đạt | [01](artefacts/01-stakeholder-map-individual-PhamThanhDat.md) | [02](artefacts/02-pitch-individual-PhamThanhDat.md) |
 | Linh | [01](artefacts/01-stakeholder-map-individual-tam.md) | [02](artefacts/02-pitch-individual-tam.md) |
 | Tiên | [01](artefacts/01-stakeholder-map-individual-tien.md) | [02](artefacts/02-pitch-individual-tien.md) |
 

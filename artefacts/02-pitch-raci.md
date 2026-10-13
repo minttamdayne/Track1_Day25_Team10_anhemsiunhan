@@ -65,7 +65,7 @@ Mỗi thành viên tự viết lại thông điệp theo cấu trúc Conclusion 
 | Bùi Thị Ngọc Trân | Trust & Privacy | Minh bạch việc xử lý dữ liệu để người dùng có cơ sở quyết định tham gia thử nghiệm. |
 | Nguyễn Khánh Linh | Financial Safety | Giới hạn gợi ý tích lũy và xác định các trường hợp AI không nên đưa ra khuyến nghị. |
 | Ngô Lê Thuỷ Tiên | Data Security | Xin review cách lưu trữ, bảo vệ và xóa dữ liệu hóa đơn. |
-| Phạm Thành Đạt | Chờ bổ sung | Chưa có bản Pitch cá nhân được cung cấp. |
+| Phạm Thành Đạt | AI Evals & OCR quality | Kiểm chứng lỗi trích xuất bằng bộ eval và user testing trước khi khẳng định lợi ích. |
 
 **Thông điệp tổng hợp đề xuất:**
 
@@ -134,7 +134,7 @@ Saving Tracker AI hướng đến việc giảm thao tác ghi nhận chi tiêu b
 - [x] Có RACI cho 6 công việc.
 - [x] Mỗi công việc có đúng 1 Accountable.
 - [ ] Xác nhận bản Pitch cá nhân của từng thành viên.
-- [ ] Bổ sung Pitch cá nhân của Phạm Thành Đạt.
+- [x] Bổ sung Pitch cá nhân của Phạm Thành Đạt (xem artefacts/02-pitch-individual-PhamThanhDat.md).
 - [x] Gắn tên thành viên thực tế vào RACI.
 - [ ] Bổ sung kết quả OCR/demo/user testing khi có bằng chứng.
 
