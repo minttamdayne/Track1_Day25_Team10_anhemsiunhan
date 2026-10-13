@@ -4,14 +4,14 @@
 
 ## 1. Team Health – điểm cá nhân (1–5)
 
-| Khía cạnh | TV1 | TV2 | TV3 | TV4 | TB | Chênh lệch |
+| Khía cạnh | Tiên (TV1) | TV2 | TV3 | TV4 | TB | Chênh lệch |
 |---|---|---|---|---|---|---|
-| Chất lượng AI | [TODO] | [TODO] | [TODO] | [TODO] | | |
-| Tiến độ | [TODO] | [TODO] | [TODO] | [TODO] | | |
-| Tinh thần team | [TODO] | [TODO] | [TODO] | [TODO] | | |
-| Tốc độ ra sản phẩm | [TODO] | [TODO] | [TODO] | [TODO] | | |
+| Chất lượng AI | 2 | [TODO] | [TODO] | [TODO] | | |
+| Tiến độ | 3 | [TODO] | [TODO] | [TODO] | | |
+| Tinh thần team | 4 | [TODO] | [TODO] | [TODO] | | |
+| Tốc độ ra sản phẩm | 3 | [TODO] | [TODO] | [TODO] | | |
 
-(Thêm hoặc bớt cột cho đúng số thành viên.)
+(Thêm hoặc bớt cột cho đúng số thành viên. Điểm của Tiên là điểm tạm, dựa trên hiện trạng repo: chưa có số đo OCR, chưa có bộ test; Tiên chỉnh lại nếu cảm nhận thực tế khác.)
 
 ## 2. So sánh và chọn vấn đề (team điền sau khi có điểm)
 

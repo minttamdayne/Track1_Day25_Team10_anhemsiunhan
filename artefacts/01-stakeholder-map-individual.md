@@ -19,7 +19,7 @@
 
 ## 3. Việc cần xác nhận trước khi gộp với nhóm
 
-- [ ] Giảng viên đã đưa feedback gì cụ thể chưa?
-- [ ] Đã có người dùng thử thật chưa? Nếu có, bao nhiêu người và phản hồi ra sao?
-- [ ] Có thành viên nào đã liên hệ cố vấn tài chính, aggregator hoặc người review bảo mật chưa?
-- [ ] Sửa các stance “cần xác minh” hoặc “giả định” theo thông tin bạn biết.
+- [x] Giảng viên đã đưa feedback gì cụ thể chưa? → Chưa có feedback nào được ghi trong repo; stance “ủng hộ” vẫn là giả định.
+- [x] Đã có người dùng thử thật chưa? → Chưa; kế hoạch là mời 5 người, mỗi người chụp 10 hóa đơn.
+- [x] Có thành viên nào đã liên hệ cố vấn tài chính, aggregator hoặc người review bảo mật chưa? → Chưa có ai liên hệ theo repo; cần tìm qua người quen.
+- [x] Sửa các stance “cần xác minh” hoặc “giả định” theo thông tin bạn biết. → Giữ nguyên các nhãn “cần xác minh”/“giả định” vì chưa có bằng chứng mới.

@@ -17,6 +17,13 @@
 3. [AI Team Design](artefacts/03-ai-team-design.md)
 4. [Team Health & Growth Plan](artefacts/04-team-health-growth-plan.md)
 
+**Bản cá nhân**
+
+| Thành viên | Stakeholder Map | Pitch |
+|---|---|---|
+| Linh | [01](artefacts/01-stakeholder-map-individual.md) | [02](artefacts/02-pitch-individual.md) |
+| Tiên | [01](artefacts/01-stakeholder-map-individual-tien.md) | [02](artefacts/02-pitch-individual-tien.md) |
+
 PDF rà soát nội bộ: [Day25_AI-Team-Lab_Team10.pdf](output/pdf/Day25_AI-Team-Lab_Team10.pdf) *(bản nháp, còn thiếu dữ liệu team trước khi nộp)*
 PDF nộp: Chưa chốt.
 

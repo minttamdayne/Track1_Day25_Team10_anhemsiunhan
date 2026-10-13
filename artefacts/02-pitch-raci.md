@@ -31,6 +31,7 @@ Mỗi thành viên viết lại pitch bằng lời của mình theo đúng 4 ph�
 | Thành viên | Câu kết luận của bạn | Câu small ask của bạn |
 |---|---|---|
 | Linh | MVP chỉ gợi ý tích lũy tham khảo từ chi tiêu người dùng, không khuyến nghị sản phẩm đầu tư cụ thể. | Xin 30 phút để cố vấn xem 3 tình huống mẫu và chỉ ra trường hợp AI không nên trả lời. |
+| Tiên | Ở MVP, AI chỉ giúp người dùng đọc hóa đơn và nhìn rõ chi tiêu của mình; mọi gợi ý tích lũy chỉ mang tính tham khảo, không đụng tới việc nên mua gì. | Xin 30 phút xem 3 tình huống mẫu và cho biết câu nào AI phải từ chối hoặc chuyển hướng trước khi team cho người dùng thử. |
 
 *Mục đích của bước này là kiểm tra từng người có hiểu thông điệp thật hay chỉ đồng ý với bản nháp.*
 
