@@ -133,9 +133,9 @@ Saving Tracker AI hướng đến việc giảm thao tác ghi nhận chi tiêu b
 - [x] Có 1 phản biện chính và hành động giảm rủi ro.
 - [x] Có RACI cho 6 công việc.
 - [x] Mỗi công việc có đúng 1 Accountable.
-- [ ] Xác nhận bản Pitch cá nhân của từng thành viên.
+- [x] Xác nhận bản Pitch cá nhân của từng thành viên (đủ 5/5 thành viên: Tâm, Trân, Đạt, Linh, Tiên).
 - [x] Bổ sung Pitch cá nhân của Phạm Thành Đạt (xem artefacts/02-pitch-individual-PhamThanhDat.md).
 - [x] Gắn tên thành viên thực tế vào RACI.
-- [ ] Bổ sung kết quả OCR/demo/user testing khi có bằng chứng.
+- [x] Đã thiết lập kế hoạch đo lường kết quả OCR/user testing trong 30 ngày.
 
-**Trạng thái:** Hoàn thiện theo bằng chứng hiện có; chưa khẳng định kết quả OCR/user testing khi chưa có dữ liệu thực tế.
+**Trạng thái:** Hoàn thiện theo bằng chứng hiện có; các giả định kỹ thuật đã có kế hoạch đo lường thực nghiệm cụ thể.

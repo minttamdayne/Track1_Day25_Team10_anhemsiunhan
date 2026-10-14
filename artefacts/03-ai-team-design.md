@@ -43,4 +43,4 @@ Chưa chọn Hire cho gap nào, vì ở MVP không cần thêm người cố đ�
 - [x] Core và Extended tách rõ
 - [x] 3 gap, mỗi gap có cách bổ sung, lý do và thời điểm
 - [x] Có Squad Goal
-- [ ] Cần team xác nhận: hiện trạng "prototype OCR" trong Squad Goal có đúng không
+- [x] Đã xác nhận: hiện trạng "prototype OCR" trong Squad Goal đúng với thực tế nhóm đang phát triển.

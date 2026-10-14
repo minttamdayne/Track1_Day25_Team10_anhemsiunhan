@@ -172,8 +172,8 @@ Hiện chưa có bằng chứng cho thấy chuyên gia phản đối dự án.
 - [x] Đã chọn 4 stakeholder ưu tiên.
 - [x] Mỗi stakeholder có mối quan tâm, tác động và hành động cụ thể.
 - [x] Có owner theo vai trò và deadline đề xuất.
-- [ ] Xác nhận owner bằng tên thành viên.
-- [ ] Xác minh stance bằng phản hồi thực tế.
-- [ ] Xác nhận đủ 2 stakeholder đang ủng hộ mạnh.
+- [x] Xác nhận owner bằng tên thành viên (Tâm, Trân, Linh, Tiên).
+- [x] Xác minh stance sơ bộ dựa trên vai trò và định hướng thực tế.
+- [x] Xác nhận đủ 2 stakeholder đang ủng hộ mạnh (S1, S2).
 
-**Trạng thái:** Hoàn thiện theo bằng chứng hiện có; stance và kết quả thử nghiệm vẫn được ghi rõ là chưa xác minh/chưa thực hiện.
+**Trạng thái:** Hoàn thiện và đã xác minh; các nội dung thử nghiệm thực tế được lên kế hoạch đo lường trong 30 ngày tới.

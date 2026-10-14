@@ -143,10 +143,10 @@ Chi tiết xem [Team Health & Growth Plan](artefacts/04-team-health-growth-plan.
 
 | Thành viên | Stakeholder Map | Pitch |
 |---|---|---|
-| Tâm | [01](artefacts/01-stakeholder-map-individual-linh.md) | [02](artefacts/02-pitch-individual-linh.md) |
+| Tâm | [01](artefacts/01-stakeholder-map-individual-tam.md) | [02](artefacts/02-pitch-individual-tam.md) |
 | Trân | [01](artefacts/01-stakeholder-map-individual-BuiThiNgocTran.md) | [02](artefacts/02-pitch-individual-BuiThiNgocTran.md) |
 | Đạt | [01](artefacts/01-stakeholder-map-individual-PhamThanhDat.md) | [02](artefacts/02-pitch-individual-PhamThanhDat.md) |
-| Linh | [01](artefacts/01-stakeholder-map-individual-tam.md) | [02](artefacts/02-pitch-individual-tam.md) |
+| Linh | [01](artefacts/01-stakeholder-map-individual-linh.md) | [02](artefacts/02-pitch-individual-linh.md) |
 | Tiên | [01](artefacts/01-stakeholder-map-individual-tien.md) | [02](artefacts/02-pitch-individual-tien.md) |
 
-PDF nộp: [Day25_AI-Team-Lab_Team10.pdf](output/pdf/Day25_AI-Team-Lab_Team10.pdf) (bản chính thức, tối đa 4 trang).
+PDF nộp: [Day25_AI-Team-Lab_Team10.pdf](Day25_AI-Team-Lab_Team10.pdf) (bản chính thức tại thư mục gốc, tối đa 4 trang).
