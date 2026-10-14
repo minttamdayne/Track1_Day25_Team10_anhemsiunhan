@@ -108,20 +108,28 @@ Chi tiết xem [AI Team Design](artefacts/03-ai-team-design.md).
 
 #### Team Health & Growth Plan
 
-| Khía cạnh | Điểm TB |
-|---|---:|
-| Chất lượng AI | 2.6/5 |
-| Tiến độ | 3.0/5 |
-| Tinh thần team | 4.4/5 |
-| Tốc độ ra sản phẩm | 2.6/5 |
+| Khía cạnh | Tâm | Trân | Đạt | Linh | Tiên | Điểm TB | Chênh lệch |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Chất lượng AI | 3 | 3 | 3 | 2 | 2 | **2.6 / 5** | 1 |
+| Tiến độ | 3 | 3 | 3 | 3 | 3 | **3.0 / 5** | 0 |
+| Tinh thần team | 5 | 4 | 4 | 5 | 4 | **4.4 / 5** | 1 |
+| Tốc độ ra sản phẩm | 2 | 3 | 2 | 3 | 3 | **2.6 / 5** | 1 |
 
-Vấn đề ưu tiên là thiếu quy trình đánh giá AI và tích hợp kết quả vào chu kỳ MVP. Năng lực cần nâng là AI Evals/Quality Evaluation, owner là Phạm Thành Đạt.
+- **Điểm mạnh nhất:** Tinh thần team (4.4/5) — các thành viên cởi mở, tin tưởng và phối hợp nhịp nhàng.
+- **Đồng thuận nhất:** Tiến độ (3.0/5, chênh lệch 0) — cả 5 thành viên đều đánh giá ở mức trung bình.
+- **Hai điểm nghẽn thấp nhất:** Chất lượng AI (2.6/5) và Tốc độ ra sản phẩm (2.6/5).
+- **Vấn đề ưu tiên hàng đầu:** Thiếu quy trình kiểm chứng chất lượng AI (AI Evals) và cơ chế tích hợp kết quả đo đạc vào chu kỳ hoàn thiện MVP.
+- **Nâng cấp Competency:** Vai trò AI Engineer (Phạm Thành Đạt) từ mức L2 (AI Practitioner) tập trung nâng cao năng lực **AI Evals / Quality Evaluation** (xây dataset 30 hóa đơn chuẩn, thiết kế accuracy metric theo trường và chạy eval tự động sau mỗi lần cập nhật pipeline).
 
-Ba hành động trong 30 ngày:
+**Growth Plan 30 ngày (13/10/2026 – 12/11/2026):**
 
-1. Đạt xây 30 hóa đơn chuẩn và baseline eval trước 27/10/2026.
-2. Tâm phối hợp Linh chia MVP thành task nhỏ, theo dõi GitHub và có ít nhất 2 review trước 03/11/2026.
-3. Trân phối hợp Tâm thử nghiệm với 5 người dùng và tổng hợp 3 vấn đề ưu tiên trước 12/11/2026.
+| Vấn đề cốt lõi | Hành động 30 ngày | Owner phụ trách | Deadline | Dấu hiệu hoàn thành cụ thể (Measurable) |
+|---|---|---|:---:|---|
+| Chất lượng AI thấp (2.6/5), chưa có bộ eval | Xây 30 hóa đơn mẫu có đáp án chuẩn; đo độ chính xác OCR (tên shop, ngày, số tiền) và lưu baseline eval. | Phạm Thành Đạt (AI Engineer) | 27/10/2026 | Có dataset ground-truth, bảng kết quả eval baseline và phân loại lỗi OCR. |
+| Tốc độ ra sản phẩm thấp (2.6/5) | Chia nhỏ MVP thành task backlog trên GitHub, thống nhất tiêu chuẩn hoàn thành (DoD), họp Weekly Review hàng tuần. | Đinh Thị Minh Tâm (PO) phối hợp Linh | 03/11/2026 | Backlog GitHub có owner/status rõ ràng; có ít nhất 2 biên bản họp Weekly Review. |
+| Chưa kiểm chứng giá trị thực tế của MVP | Tổ chức thử nghiệm với 5 người dùng mục tiêu; đo thời gian nhập và số lần sửa lỗi; tổng hợp 3 vấn đề ưu tiên. | Bùi Thị Ngọc Trân (UI/UX) phối hợp Tâm | 12/11/2026 | Có báo cáo User Testing hoàn chỉnh với số liệu thời gian và 3 vấn đề ưu tiên cải thiện. |
+
+- **Nhịp vận hành hàng tuần:** Weekly Review 20 phút vào mỗi thứ Sáu (bắt đầu 16/10/2026) do Product Owner Đinh Thị Minh Tâm chủ trì nhằm kiểm tra tiến độ backlog, kết quả eval và giải tỏa blocker.
 
 Chi tiết xem [Team Health & Growth Plan](artefacts/04-team-health-growth-plan.md).
 
