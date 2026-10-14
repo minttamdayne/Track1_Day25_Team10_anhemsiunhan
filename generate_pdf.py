@@ -688,11 +688,7 @@ def build_pdf(filename):
 
     doc.build(story, canvasmaker=NumberedCanvas)
     print(f"Built PDF successfully: {filename}")
-
 if __name__ == '__main__':
     out_pdf = 'D:/AI-20K-Phase2/Track1_Day25_Team10_anhemsiunhan/Day25_AI-Team-Lab_Team10.pdf'
-    out_pdf2 = 'D:/AI-20K-Phase2/Track1_Day25_Team10_anhemsiunhan/output/pdf/Day25_AI-Team-Lab_Team10.pdf'
     build_pdf(out_pdf)
-    import shutil
-    shutil.copyfile(out_pdf, out_pdf2)
-    print(f"Copied to {out_pdf2}")
+
